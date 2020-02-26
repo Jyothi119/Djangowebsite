@@ -1,0 +1,8 @@
+
+{% if course.pk is 1 %}
+<h1><a href="https://www.pc-college.de/seminare-schulungen-kurse/python/index.php?gclid=Cj0KCQiAnL7yBRD3ARIsAJp_oLYsfkPgzTLye2xWK544vvgnyeNuNNk_19nr-Q6Xw38EfEX02OLmmUcaApi7EALw_wcB">{{course.coursename}}</a>></h1>
+<h2>{{course.insname}}</h2>
+{% elif course.pk is 2%}
+<h1><a href="https://www.pc-college.de/seminare-schulungen-kurse/python/index.php?gclid=Cj0KCQiAnL7yBRD3ARIsAJp_oLYsfkPgzTLye2xWK544vvgnyeNuNNk_19nr-Q6Xw38EfEX02OLmmUcaApi7EALw_wcB">{{course.coursename}}</a>></h1>
+<h2>{{course.insname}}</h2>
+{% endif %}
